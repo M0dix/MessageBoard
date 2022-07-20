@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.messageboard">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MessageBoard"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.Users.UserOrderListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Admin.AdminOrderListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Users.UserSearchByCity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Users.UserSearchByTitle"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Users.UserCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Users.ProductItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Users.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Users.HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.MessageBoard.NoActionBar" />
+        <activity
+            android:name=".ui.Admin.AdminCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Admin.AdminAddNewProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Users.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

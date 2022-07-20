@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart"
+            android:title="Заказы"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_title"
+            android:icon="@drawable/title"
+            android:title="Название"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_cities"
+            android:icon="@drawable/location"
+            android:title="Города"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/category"
+            android:title="Категории"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Настройки"
+            android:iconTint="@color/white"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Выход"
+            android:iconTint="@color/white"/>
+    </group>
+</menu>

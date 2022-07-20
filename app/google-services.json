@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "593932572199",
+    "firebase_url": "https://messageboard-152cd-default-rtdb.firebaseio.com",
+    "project_id": "messageboard-152cd",
+    "storage_bucket": "messageboard-152cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593932572199:android:24aa94f2730be9ab226002",
+        "android_client_info": {
+          "package_name": "com.example.messageboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593932572199-u5ghf76b6c9n8jlh044s1d9hnk15qcc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.messageboard",
+            "certificate_hash": "d7f401638f5031179814dd5088e3e689222f3295"
+          }
+        },
+        {
+          "client_id": "593932572199-4ago21156e2n2hr1tbg6j9qoivj1maq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Ra7b8ZbxttyW1UMsM6AxAkta7hyERh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593932572199-4ago21156e2n2hr1tbg6j9qoivj1maq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
